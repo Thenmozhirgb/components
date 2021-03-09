@@ -4,7 +4,7 @@ export class Classlifecyclemethod extends Component {
 
     constructor(props) {
         super(props)
-        this.state = { Data: "Thenmozhi" }
+        this.state = { Data: 'Thenmozhi' }
     }
 
     static getDerivedStateFromProps(props, state) {
@@ -28,7 +28,7 @@ export default class Staticmethod extends Component{
     render(){
         return(
             <div>
-                <Classlifecyclemethod nameFromParent= "This is staticgetDerivedStateFromProps"/>
+                <Classlifecyclemethod nameFromParent= 'This is staticgetDerivedStateFromProps'/>
             </div>
         )
     }
