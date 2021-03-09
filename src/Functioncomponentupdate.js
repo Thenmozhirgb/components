@@ -18,10 +18,10 @@ const Functioncomponentupdate = () => {
     <div>
       <h1>{count}</h1>
  
-      <button type="button" onClick={handleIncrement}>
+      <button type='button' onClick={handleIncrement}>
         Increment
       </button>
-      <button type="button" onClick={handleDecrement}>
+      <button type='button' onClick={handleDecrement}>
         Decrement
       </button>
     </div>
