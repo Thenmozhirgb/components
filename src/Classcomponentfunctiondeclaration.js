@@ -8,7 +8,7 @@ class Classcomponentfunctiondeclaration extends Component {
         return (
             <div>
                 <h2>Class component function declaration</h2>
-                <input type="button" onClick={this.handleClick} value="Click"></input>
+                <input type='button' onClick={this.handleClick} value='Click'></input>
             </div>
 
         )
