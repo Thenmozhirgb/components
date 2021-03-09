@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 class Classcomponentstate extends Component {
   constructor(props) {
     super(props)
-    this.state = { Data: "Thenmozhi" }
+    this.state = { Data: 'Thenmozhi' }
   }
 
   changeState() {
-    this.setState({ Data: "Sundar" });
+    this.setState({ Data: 'Sundar' });
   }
 
   render() {
