@@ -11,7 +11,7 @@ function Functioncomponentstate(){
     <div>
       <h1>{greeting}</h1>
  
-      <input type="text" value={greeting} onChange={handleChange} />
+      <input type='text' value={greeting} onChange={handleChange} />
     </div>
   );
 };
